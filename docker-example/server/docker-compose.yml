@@ -1,0 +1,9 @@
+app:
+  build: .
+  command: yarn start:dev
+  environment:
+    NODE_ENV: development
+  ports:
+    - '8080:8080'
+  volumes:
+    - ./src:/home/app/src

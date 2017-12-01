@@ -1,0 +1,7 @@
+app:
+  build: .
+  command: yarn start
+  environment:
+    NODE_ENV: production
+  ports:
+    - '8080:8080'
