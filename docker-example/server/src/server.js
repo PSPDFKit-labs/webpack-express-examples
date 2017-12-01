@@ -3,7 +3,7 @@ const PORT = 8080;
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Burn world! UGH\n');
+  res.sendFile('index.html', {root: __dirname });
 });
 
 app.listen(PORT);
