@@ -1,5 +1,5 @@
 This example runs a server on port 8080 and a webpack-dev-server with hot-reload on port 8081.
-If you change your files in `client/src` your browser window is going to reload and show your changes immediately.
+If you change your files in `client/src` your browser tab is going to reload and show your changes immediately.
 
 ## Prerequisites
 
