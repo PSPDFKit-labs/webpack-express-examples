@@ -10,4 +10,4 @@ If you change your files in `client/src` your browser tab is going to reload and
 
 ## Install and run
 
-Run `scripts/start-dev.sh` in the root directory of this project and open [http://localhost:8080](http://localhost:8080)
+Run `scripts/start-dev.sh` in the root directory of this example project and open [http://localhost:8080](http://localhost:8080)
