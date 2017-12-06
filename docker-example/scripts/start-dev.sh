@@ -2,8 +2,10 @@
 
 cd ./server
 
-docker-compose build && docker-compose up
+docker-compose build
+docker-compose up &
 
 cd ../client
 
-yarn && yarn dev
+yarn
+yarn start
