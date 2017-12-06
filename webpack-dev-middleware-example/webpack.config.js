@@ -8,7 +8,7 @@ module.exports = {
       'babel-polyfill',
       'webpack-hot-middleware/client',
       'react-hot-loader/patch',
-      './client/src/index'
+      './client/index'
     ]
   },
   devServer: {
