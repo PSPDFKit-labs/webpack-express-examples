@@ -2,7 +2,7 @@
 
 cd ./server
 
-docker-compose build && docker-compose run
+docker-compose build && docker-compose up
 
 cd ../client
 
